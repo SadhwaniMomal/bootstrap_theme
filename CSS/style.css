@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Colors */
+
+:root{
+    --bg-blue: #023B6D;
+    --blue_light : #c3ccd8;
+    --white-color :#fff;
+    --black-color : #000;
+}
+
+
+/* Navbar CSS Starting Here */
+.main_navbar{
+    background-color: var(--bg-blue);
+}
+
+.nav_container .navbar-brand img{
+    height: 5vh;
+}
+
+.navbar_links .navbar-nav .nav-item .nav-link{
+    color: var(--blue_light);
+    margin: 0 2px;
+}
+.navbar_links .navbar-nav .nav-item .nav-link:hover{
+    color: var(--white-color);
+
+}
+.form-nav i{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+
+}
+.form-nav input:hover{
+    cursor: pointer;
+   outline: none;
+}
+.nav-search-icon{
+    position: absolute;
+    right: 10%;
+}
+.nav-search-icon {
+    position: absolute;
+    right: 10%;
+    z-index: 10; /* Ensure it's above other elements */
+}
