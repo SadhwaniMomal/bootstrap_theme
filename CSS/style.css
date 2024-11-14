@@ -6,14 +6,19 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
-
+/* html , body{
+    overflow-x: hidden;
+} */
 /* Colors */
 
 :root{
     --bg-blue: #023B6D;
-    --blue_light : #c3ccd8;
+    --blue-dark :#023b6d;
+    --btn-blue: #009bd9;
+    --blue_light : #e2ebf5;
     --white-color :#fff;
     --black-color : #000;
+    --bg-blue-light : #f9fbfd;
 }
 
 
@@ -40,16 +45,91 @@
     right: 15px;
 
 }
+.form-nav input::placeholder{
+   color: var(--blue_light);
+
+}
 .form-nav input:hover{
     cursor: pointer;
-   outline: none;
+    outline: none !important;
 }
 .nav-search-icon{
     position: absolute;
     right: 10%;
 }
-.nav-search-icon {
-    position: absolute;
-    right: 10%;
-    z-index: 10; /* Ensure it's above other elements */
+
+/* Main-container css */
+.sticky-top-custom {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 20px; /* Adjust as needed */
+}
+
+.page-title{
+font-size: 24px;
+color: var(--blue-dark);
+font-weight: 500;
+background: var(--white-color);
+
+}
+
+
+.theme-details ul {
+list-style: none;
+padding: 0;
+margin: 15px 0 0 0;
+}
+.theme-details ul li{
+display: flex;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+padding: 12px 20px;
+border: 1px solid var(--blue_light);
+background: var(--bg-blue-light);
+margin: 0 0 10px 0;
+}
+
+.themes-buttons .btn-layout {
+background-color: var(--btn-blue);
+}
+.themes-buttons a {
+text-decoration: none;
+padding: 12px 5px;
+font-size: 16px;
+border-radius: 3px;
+font-weight: 500;
+transition: .25s;
+background: var(--bg-blue);
+color: var(--white-color);
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+margin: 0 0 15px 0;
+}
+
+
+/* Footer css  */
+
+.footer {
+    background-color: #073b6d;
+    color: #fff;
+    padding: 40px 0;
+}
+.footer .footer-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footer .footer-link {
+    color: #c4cfd9;
+    text-decoration: none;
+}
+.footer .footer-link:hover {
+    text-decoration: underline;
+}
+.social-icons i {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-right: 15px;
 }
