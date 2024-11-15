@@ -13,11 +13,11 @@
   --bg-blue: #023b6d;
   --blue-dark: #023b6d;
   --btn-blue: #009bd9;
-  --blue-light:#dee2e6;
+  --blue-light: #dee2e6;
   --white-color: #fff;
   --black-color: #000;
-  --green-color : #28a745;
-  --gray-color : #aab1bd;
+  --green-color: #28a745;
+  --gray-color: #aab1bd;
   --bg-blue-light: #f9fbfd;
 }
 
@@ -30,16 +30,10 @@
   height: 5vh;
 }
 
-<<<<<<< HEAD
+
 .navbar_links .navbar-nav .nav-item .nav-link {
   color: var(--bg-blue-light);
   margin: 0 2px;
-=======
-
-.navbar_links .navbar-nav .nav-item .nav-link{
-    color: var(--blue_light);
-    margin: 0 2px;
->>>>>>> 25d2ad87d03ed5b38e73583619bf608d6efd25b9
 }
 .navbar_links .navbar-nav .nav-item .nav-link:hover {
   color: var(--white-color);
@@ -63,7 +57,7 @@
 
 /* Main-container css */
 .sticky-top-custom {
-  position: -webkit-sticky; 
+  position: -webkit-sticky;
   position: sticky;
   top: 20px;
 }
@@ -112,13 +106,13 @@
 
 /* pricing data vss */
 .recommended {
-  border-top: 5px solid var( --btn-blue);
+  border-top: 5px solid var(--btn-blue);
 }
 .best-deal {
-  border-top: 5px solid var( --btn-blue);
+  border-top: 5px solid var(--btn-blue);
 }
 .pricing-card {
-  border: 1px solid var( --blue-light);
+  border: 1px solid var(--blue-light);
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -132,7 +126,7 @@
 }
 .price {
   font-size: 2rem;
-  color: var( --btn-blue);
+  color: var(--btn-blue);
 }
 .btn-buy {
   background-color: var(--green-color);
@@ -276,20 +270,7 @@
   }
   .nav-search-icon {
     position: absolute;
-<<<<<<< HEAD
     right: 19%;
-=======
-    top: 0; /* Position it correctly */
-    left: 0;
-    right: 0;
-    background-color: #009bd9;
-    color: white;
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
-    padding: 10px 10px;
-    border-radius: 0px 0px 0 0;
-    z-index: 1; /* Ensure it is on top of other elements */
   }
   .checked-icon {
     color: #28a745;
@@ -395,16 +376,13 @@
     .pricing-card {
       margin-bottom: 20px;
     }
-    .nav_container .navbar-brand img{
-    height: 3vh;
-}
-      .nav-search-icon{
-    position: absolute;
-    right: 19%;
-}
-
-
->>>>>>> 25d2ad87d03ed5b38e73583619bf608d6efd25b9
+    .nav_container .navbar-brand img {
+      height: 3vh;
+    }
+    .nav-search-icon {
+      position: absolute;
+      right: 19%;
+    }
   }
 }
 
@@ -427,13 +405,10 @@
   text-decoration: underline;
 }
 .social-icons i {
-<<<<<<< HEAD
-  color: #fff;
+  color: var(--white-color);
   font-size: 1.5rem;
   margin-right: 15px;
-=======
-    color: #fff;
-    font-size: 1.5rem;
-    margin-right: 15px;
->>>>>>> 25d2ad87d03ed5b38e73583619bf608d6efd25b9
+  color: var(--white-color);
+  font-size: 1.5rem;
+  margin-right: 15px;
 }
