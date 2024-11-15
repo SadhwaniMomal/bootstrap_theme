@@ -261,6 +261,22 @@
   font-weight: bolder;
 }
 
+    .deal-recommended{
+    position: absolute;
+    background-color: var(--btn-blue);
+    color: var(--white-color);
+    border-radius: 50px;
+    font-size: 12px;
+    padding: 2px 20px;
+    top: -11px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-wrap: nowrap;
+    transition: .3s;
+    font-family: Roboto, sans-serif;
+}
+
+
   /* Responsive styling */
   @media (max-width: 767px) {
     .pricing-card {
