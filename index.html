@@ -24,6 +24,9 @@
 
     <!-- Custom Css link -->
     <link rel="stylesheet" href="CSS/style.css" />
+
+    <!-- custom link js -->
+      <script src="js/script.js" defer></script>
   </head>
   <body>
     <!-- Navbar Start here -->
@@ -106,10 +109,7 @@
                 >
               </li>
             </ul>
-            <!-- <form class="d-flex position-relative form-nav" role="search">
-            <input class="form-control me-2 bg-transparent rounded-1 px-4 py-2" type="search" placeholder="Search" aria-label="Search">
-            <span><i class="ri-search-line text-white fs-5"></i></span>
-            </form> -->
+           
           </div>
         </div>
 
@@ -170,6 +170,20 @@
         </div>
       </div>
     </nav>
+
+   <!-- Search bar for small devices (initially hidden) -->
+    <form
+    class="d-flex justify-content-center m-auto position-relative form-nav-small  d-none"
+    role="search"
+    >
+      <input
+        class="form-control m-2 bg-transparent rounded-1 px-4 py-2"
+        type="search"
+        placeholder="Search"
+        aria-label="Search"
+      />
+      <span><i class="ri-search-line text-black fs-5"></i></span>
+</form>
     <!-- Navbar End here -->
 
     <!-- Main container -->

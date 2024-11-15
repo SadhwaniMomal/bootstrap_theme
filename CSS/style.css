@@ -260,117 +260,7 @@
   text-decoration: none !important;
   font-weight: bolder;
 }
-/* Responsive styling */
-@media (max-width: 767px) {
-  .pricing-card {
-    margin-bottom: 20px;
-  }
-  .nav_container .navbar-brand img {
-    height: 3vh;
-  }
-  .nav-search-icon {
-    position: absolute;
-    right: 19%;
-  }
-  .checked-icon {
-    color: #28a745;
-  }
-  .license-items .active {
-    border-color: #009bd9;
-    background-color: #fff;
-  }
-  .form-check-input:checked {
-    background-color: #009bd9;
-    border-color: #009bd9;
-    box-shadow: 0 0 0 0.2rem rgba(0, 155, 217, 0.25);
-  }
 
-  .premium-plan {
-    margin-top: -10px;
-  }
-  .pricing-title-cancel {
-    padding: 0 0 2px 0;
-    font-size: 14px;
-    font-weight: 400;
-    margin-left: 5px;
-    border-bottom: 1px dashed #aab1bd;
-    text-decoration: line-through #aab1bd;
-  }
-  .pricing-title {
-    padding: 0 0 2px 0;
-    font-size: 14px;
-    font-weight: 400;
-    margin-left: 5px;
-    border-bottom: 1px dashed #aab1bd;
-  }
-  .pricing-title .help,
-  .pricing-title-cancel .help {
-    position: absolute;
-    top: 0;
-    transform: translate(0, -110%);
-    left: 10%;
-    right: 10%;
-    background: #024681;
-    color: #fff;
-    border-radius: 4px;
-    padding: 10px 15px;
-    visibility: hidden;
-    opacity: 0;
-    font-size: 13px;
-    font-weight: 400;
-  }
-  .pricing-title .help::after,
-  .pricing-title-cancel .help::after {
-    content: "";
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    transform: rotate(45deg);
-    background-color: inherit;
-    bottom: -4px;
-    left: calc(10%);
-  }
-
-  .pricing-title:hover .help,
-  .pricing-title-cancel:hover .help {
-    visibility: visible;
-    opacity: 1;
-    transition: opacity 0.3s ease-in-out;
-  }
-
-  .features li {
-    padding: 10px 10px 9px 10px;
-    font-size: 15px;
-    font-weight: 600;
-    display: flex;
-    align-items: flex-start;
-    position: relative;
-  }
-  .price-div-active {
-    border: 1px solid #009bd9;
-    padding: 5px 30px;
-  }
-  .price-div {
-    border: 1px solid #009bd9;
-    background-color: #f7f9fc;
-    padding: 5px 30px;
-    margin-bottom: 10px;
-  }
-  .btn-download {
-    background-color: #035195;
-    border-radius: none !important;
-    padding: 10px;
-    color: #fff;
-  }
-  .linking a {
-    color: #035195;
-    font-size: 1.2rem;
-  }
-  .important-list {
-    color: #024681;
-    text-decoration: none !important;
-    font-weight: bolder;
-  }
   /* Responsive styling */
   @media (max-width: 767px) {
     .pricing-card {
@@ -383,8 +273,14 @@
       position: absolute;
       right: 19%;
     }
+    .form-nav-small  span  {
+        position: absolute;
+        top: 20%;
+        right: 5%;
+  
+    }
   }
-}
+
 
 /* Footer css  */
 
